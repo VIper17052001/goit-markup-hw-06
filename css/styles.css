@@ -556,7 +556,6 @@ section {
 .social {
   padding-top: 12px;
   padding-bottom: 0px;
-  text-align: baseline;
   margin-right: 93px;
 }
 .social-headline {
@@ -638,7 +637,7 @@ section {
   text-transform: uppercase;
 }
 .backdrop {
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
   height: 100%;
@@ -793,6 +792,7 @@ section {
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   color: #2196f3;
+  padding-left: 4px;
 }
 .checkbox-icon {
   position: absolute;
@@ -817,6 +817,7 @@ section {
 .checkbox-item:checked + .checkbox-icon {
   visibility: visible;
 }
+
 .checkbox-item:checked + .check-icon {
   visibility: hidden;
 }
